@@ -1,0 +1,55 @@
+body{
+background-color: black;
+}
+h1
+{
+    color: aliceblue;
+    margin-top: 0%;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #bars-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+  }
+  
+  .bar {
+    display: inline-block;
+    background-color: #2196F3;
+    width: 7px;
+    margin: 0 1px;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color:#2196F3;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #speed-control {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
